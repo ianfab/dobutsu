@@ -76,7 +76,7 @@ enum {
 	ROST_S =     1 <<  CHCK_S,     /* is CHCK_S a rooster? */
 	ROST_G =     1 <<  CHCK_G,     /* is CHCK_G a rooster? */
 	GOTE_MOVES = 1 <<  8,          /* is it Gote's move? */
-	POS_FLAGS = GOTE_MOVES | ROST_S | ROST_G /* all flags */
+	POS_FLAGS = GOTE_MOVES /* all flags */
 };
 
 /*
